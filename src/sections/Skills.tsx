@@ -24,53 +24,54 @@ const skillsData: Skill[] = [
   { 
     category: 'frontend',
     name: 'JavaScript', 
-    level: 85,
+    level: 90,
     icon: <div className="text-[#f0db4f] text-xl font-bold">JS</div>
   },
   { 
     category: 'frontend',
     name: 'React', 
-    level: 80,
+    level: 90,
     icon: <div className="text-[#61dafb] text-xl font-bold">⚛</div>
   },
   { 
     category: 'frontend',
-    name: 'TypeScript', 
+    name: 'Angular.js',
     level: 75,
-    icon: <div className="text-[#007acc] text-xl font-bold">TS</div>
+    icon: <div className="text-[#007acc] text-xl font-bold">AJ</div>
   },
   
   // Backend
   { 
     category: 'backend',
     name: 'Node.js', 
-    level: 75,
+    level: 85,
     icon: <div className="text-[#68a063] text-xl font-bold">Node</div>
   },
   { 
     category: 'backend',
     name: 'Express', 
-    level: 70,
+    level: 85,
     icon: <div className="text-[#828282] text-xl font-bold">Ex</div>
   },
   { 
     category: 'backend',
     name: 'MongoDB', 
-    level: 65,
+    level: 80,
     icon: <div className="text-[#4DB33D] text-xl font-bold">DB</div>
   },
   { 
     category: 'backend',
-    name: 'SQL', 
-    level: 60,
-    icon: <div className="text-[#F29111] text-xl font-bold">SQL</div>
+    name: 'Redis',
+    level: 80,
+    icon: <div className="text-[#D82C20] text-xl font-bold">R</div>
+    
   },
   
   // Tools
   { 
     category: 'tools',
     name: 'Git', 
-    level: 85,
+    level: 90,
     icon: <div className="text-[#F05032] text-xl font-bold">Git</div>
   },
   { 
@@ -87,9 +88,15 @@ const skillsData: Skill[] = [
   },
   { 
     category: 'tools',
-    name: 'AWS', 
-    level: 60,
-    icon: <div className="text-[#FF9900] text-xl font-bold">AWS</div>
+    name: 'Postman',
+    level: 80,
+    icon: <div className="text-[#FF6C37] text-xl font-bold">P</div>
+  },
+  {
+    category:'Problem Solving',
+    name: 'c++/DSA',
+    level: 80,
+    icon: <div className="text-[#F24E1E] text-xl font-bold">DSA</div>
   }
 ];
 

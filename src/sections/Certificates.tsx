@@ -26,7 +26,7 @@ const certificatesData: Certificate[] = [
     date: "May 2025",
     description: "Comprehensive program covering modern full-stack development with JavaScript, React, Node.js, and database technologies.",
     skills: ["JavaScript", "Node.js", "MongoDB"],
-    image: "https://collection.cloudinary.com/dtkzxbcjx/fd9816fc29a0bb33fad10380c6617515",
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1747812857/nodejs_basic_certificate_page-0001_swygmm.jpg",
     certificateUrl: "https://www.hackerrank.com/certificates/edf3c23f04f1"
   },
   {
@@ -36,28 +36,63 @@ const certificatesData: Certificate[] = [
     date: "May 2025",
     description: "Focused on user-centered design principles, wireframing, prototyping, and usability testing.",
     skills: ["React", "JavaScript"],
-    image: "https://collection.cloudinary.com/dtkzxbcjx/7a496586f94f49120447c11a18d2a27e",
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1747812859/react_basic_certificate_page-0001_ebuadr.jpg",
     certificateUrl: "https://www.hackerrank.com/certificates/29f04f97089f"
   },
   {
     id: 3,
-    title: "Advanced React & Redux",
-    organization: "Udemy",
-    date: "January 2023",
+    title: "Javascript (Basic)",
+    organization: "Hackerrank",
+    date: "May 2025",
     description: "Deep dive into advanced React patterns, Redux state management, and performance optimization techniques.",
-    skills: ["React", "Redux", "Performance", "Testing"],
-    image: "https://images.pexels.com/photos/1181290/pexels-photo-1181290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    certificateUrl: "https://example.com/certificate3"
+    skills: ["javascript"],
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1747812945/javascript_basic_certificate_page-0001_ri3xhc.jpg",
+    certificateUrl: "https://www.hackerrank.com/certificates/a3b280e1ad5b"
   },
   {
     id: 4,
-    title: "AWS Certified Developer",
-    organization: "Amazon Web Services",
-    date: "November 2022",
-    description: "Certification for designing, developing and deploying cloud-based solutions using AWS services.",
-    skills: ["AWS", "Lambda", "S3", "DynamoDB"],
-    image: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    certificateUrl: "https://example.com/certificate4"
+    title: "Problem Solving (Basic)",
+    organization: "Hackerrank",
+    date: "May 2025",
+    description: "Introduction to problem-solving techniques, algorithms, and data structures.",
+    skills: ["Algorithms", "Data Structures"],
+    
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1747813135/problem_solving_basic_certificate_page-0001_bpwwbx.jpg",
+    certificateUrl: "https://www.hackerrank.com/certificates/62a8fed5cb66"
+  },
+  {
+    id: 5,
+    title: "Frontend Development (Basic)",
+    organization: "Hackerrank",
+    date: "May 2025",
+    description: "Introduction to frontend development, covering HTML, CSS, and JavaScript basics.",
+    skills: ["Node.js", "React", "JavaScript"],
+    
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1747813135/frontend_developer_react_certificate_page-0001_x9yc1m.jpg",
+    certificateUrl: "https://www.hackerrank.com/certificates/6f6e8a824ad7"
+  },
+  {
+    id: 6,
+    title: "",
+    organization: "Hackerrank",
+    date: "May 2025",
+    description: "Introduction to Python programming, covering syntax, data types, and basic algorithms.",
+    skills: ["Python", "Algorithms"],
+    
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1747813135/python_basic_certificate_page-0001_qlxq4g.jpg",
+    certificateUrl: "https://www.hackerrank.com/certificates/0f3a2b7c8d9e"
+  },
+  {
+    id: 7,
+    title: "Github Copilot Fundamentals",
+    organization: "simplileran",
+    date: "May 2025",
+    description: "Introduction to GitHub Copilot, covering its features, usage, and best practices.",
+    skills: ["GitHub", "Copilot"],
+   
+    
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1747813135/python_basic_certificate_page-0001_qlxq4g.jpg",
+    certificateUrl: "https://simpli-web.app.link/e/b81icFwByTb"
   }
 ];
 
