@@ -82,7 +82,7 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <a href="#" className="text-3xl font-bold magnetic-hover flex items-center gap-2">
           <Code className="text-[var(--color-secondary)]" />
-          <span>Dev<span className="text-[var(--color-secondary)]">Portfolio</span></span>
+          <span>Dhruv<span className="text-[var(--color-secondary)]">Portfolio</span></span>
         </a>
         
         <nav className="hidden md:flex gap-8">

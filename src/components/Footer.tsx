@@ -107,17 +107,17 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center mb-8">
           <div className="flex items-center gap-2 mb-6 md:mb-0">
             <Code className="text-[var(--color-secondary)]" size={32} />
-            <span className="text-2xl font-bold">Dev<span className="text-[var(--color-secondary)]">Portfolio</span></span>
+            <span className="text-2xl font-bold">Dhruv<span className="text-[var(--color-secondary)]">Portfolio</span></span>
           </div>
           
           <div className="flex gap-6">
-            <a href="#" className="hover:text-[var(--color-secondary)] transition-colors magnetic-hover">
+            <a href="https://github.com/dhruv2311-dot" className="hover:text-[var(--color-secondary)] transition-colors magnetic-hover">
               <Github size={24} />
             </a>
-            <a href="#" className="hover:text-[var(--color-secondary)] transition-colors magnetic-hover">
+            <a href="https://www.linkedin.com/in/dhruvvv23/" className="hover:text-[var(--color-secondary)] transition-colors magnetic-hover">
               <Linkedin size={24} />
             </a>
-            <a href="#" className="hover:text-[var(--color-secondary)] transition-colors magnetic-hover">
+            <a href="https://x.com/dhruvvv_23_" className="hover:text-[var(--color-secondary)] transition-colors magnetic-hover">
               <Twitter size={24} />
             </a>
           </div>
@@ -125,12 +125,10 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 mb-4 md:mb-0">
-            &copy; <span ref={yearRef}></span> Developer Portfolio. All rights reserved.
+            &copy; <span ref={yearRef}></span> Dhruv Portfolio. All rights reserved.
           </p>
           
-          <p className="text-gray-500 text-sm">
-            Type "matrix" for a surprise!
-          </p>
+          
         </div>
       </div>
     </footer>
