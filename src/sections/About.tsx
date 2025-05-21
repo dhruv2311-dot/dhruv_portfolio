@@ -145,7 +145,14 @@ const About = () => {
               When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through technical blog posts.
             </p>
             
-            <button className="btn magnetic-hover">Download Resume</button>
+            <a
+  href="https://drive.google.com/drive/folders/1j15K-58ArheyL9gM4zYpGRVKC4abKUSl/preview"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="btn magnetic-hover">Download Resume</button>
+</a>
+
           </div>
         </div>
       </div>
