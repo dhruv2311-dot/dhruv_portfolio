@@ -21,23 +21,23 @@ interface Certificate {
 const certificatesData: Certificate[] = [
   {
     id: 1,
-    title: "Full-Stack Web Development",
-    organization: "Udacity",
-    date: "June 2023",
+    title: "Node.js(Basic)",
+    organization: "Hackerrank",
+    date: "May 2025",
     description: "Comprehensive program covering modern full-stack development with JavaScript, React, Node.js, and database technologies.",
-    skills: ["JavaScript", "React", "Node.js", "MongoDB"],
-    image: "https://images.pexels.com/photos/5553050/pexels-photo-5553050.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    certificateUrl: "https://example.com/certificate1"
+    skills: ["JavaScript", "Node.js", "MongoDB"],
+    image: "https://collection.cloudinary.com/dtkzxbcjx/fd9816fc29a0bb33fad10380c6617515",
+    certificateUrl: "https://www.hackerrank.com/certificates/edf3c23f04f1"
   },
   {
     id: 2,
-    title: "UI/UX Design Fundamentals",
-    organization: "Coursera",
-    date: "March 2023",
+    title: "React(Basic)",
+    organization: "Hackerrank",
+    date: "May 2025",
     description: "Focused on user-centered design principles, wireframing, prototyping, and usability testing.",
-    skills: ["Figma", "Wireframing", "User Research", "Prototyping"],
-    image: "https://images.pexels.com/photos/5939401/pexels-photo-5939401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    certificateUrl: "https://example.com/certificate2"
+    skills: ["React", "JavaScript"],
+    image: "https://collection.cloudinary.com/dtkzxbcjx/7a496586f94f49120447c11a18d2a27e",
+    certificateUrl: "https://www.hackerrank.com/certificates/29f04f97089f"
   },
   {
     id: 3,

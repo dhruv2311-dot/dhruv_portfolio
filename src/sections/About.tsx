@@ -3,7 +3,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import SplitType from 'split-type';
 import { User, Code, Hash, Rocket } from 'lucide-react';
-
+import Profile from '../assets/dhruv1.jpg'; // Adjust the path as necessary
 gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
@@ -95,7 +95,7 @@ const About = () => {
               <div className="w-full h-full rounded-full overflow-hidden border-4 border-[var(--color-secondary)] p-2">
                 <div className="w-full h-full rounded-full overflow-hidden">
                   <img 
-                    src="https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                    src={Profile} 
                     alt="Developer" 
                     className="w-full h-full object-cover"
                   />

@@ -13,28 +13,122 @@ interface Project {
   description: string;
   image: string;
   category: string[];
+  techStack?: string[];
   deploymentLink: string;
   githubLink: string;
   apiDocsLink?: string;
   demoVideoId: string;
-  link: string;
+  
 }
 
 // Mock project data
 const projectsData: Project[] = [
   {
     id: 1,
-    title: "E-commerce Platform",
-    description: "A full-stack e-commerce platform with React, Node.js, and MongoDB. Features include user authentication, product filtering, cart functionality, and payment integration.",
-    image: "https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    category: ["React", "MERN", "API"],
-    deploymentLink: "https://example.com/ecommerce",
-    githubLink: "https://github.com/username/ecommerce",
-    apiDocsLink: "https://api.example.com/docs",
-    demoVideoId: "VIDEO_ID_1",
-    link: "#"
+    title: "Eventura",
+    description: "Event management platform with real-time updates and interactive features.",
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1739943406/eventura_tuntzx.png",
+    category: ["React", "MERN",],
+    techStack: ["React", "Node.js", "Express", "MongoDB"],
+    deploymentLink: "https://eventura-23.netlify.app/",
+    githubLink: "https://github.com/dhruv2311-dot/eventura-",
+    apiDocsLink: "https://documenter.getpostman.com/view/39189509/2sAYX3s4Dc",
+    demoVideoId: "12ZT1sU_Z6EKmnUcxC1f6Leg-DSP0OT5z",
+    
   },
-  // ... (previous projects with added fields)
+  {
+    id:2,
+    title: "Youtube",
+    description: "A dynamic YouTube clone featuring real-time video updates, interactive UI, and seamless streaming. Built with React and Node.js, it integrates a custom YouTube API for personalized content delivery.",
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1740156747/Screenshot_2025-02-21_221308_uqsfq2.png",
+    category: ["React"],
+    techStack: ["React", "Node.js", "Express", "MongoDB"],
+    deploymentLink: "https://youtube-api-lomc.vercel.app/",
+    githubLink: "https://github.com/dhruv2311-dot/Youtube-API",
+    demoVideoId: "1a2b3c4d5e6f7g8h9i0j",
+  },
+  {
+    id:3,
+    title:"spotify",
+    description: "A sleek Spotify clone built using React with a modular, component-based architecture. It offers seamless music playback, dynamic UI updates, and an interactive user experience. 🚀🎵",
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1740156966/igvbvpgmgyzkbrthcdma.png",
+    category: ["React"],
+    techStack: ["React", "Node.js", "Express", "MongoDB"],
+    deploymentLink: "https://spotify-react-component.vercel.app/",
+    githubLink: "https://github.com/dhruv2311-dot/spotify-react-component",
+    demoVideoId: "1a2b3c4d5e6f7g8h9i0j",
+  },
+  {
+    id: 4,
+    title: "Tic-Tac-Toe",
+    description: "A classic Tic Tac Toe game developed using React, featuring a responsive UI, smooth gameplay, and dynamic state management for an engaging experience. 🎮✨",
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1740157368/gtsplesiovqz4emqthn2.png",
+    category: ["HTML/CSS", "React"],
+    techStack: ["React", "Tailwind CSS"],
+    deploymentLink: "https://tic-tac-toe-sandy-two.vercel.app/",
+    githubLink: "https://github.com/dhruv2311-dot/Tic-Tac-Toe",
+    demoVideoId: "1a2b3c4d5e6f7g8h9i0j",
+  },
+  {
+    id: 5,
+    title: "Purple",
+    description: "E-commerce platform with modern UI and seamless shopping experience.",
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1739943602/bgrat7sxisqwumu4x1vn.png",
+    category: ["HTML/CSS", "React"],
+    techStack: ["React", "Tailwind CSS"],
+    deploymentLink: "https://purple21.netlify.app/",
+    githubLink: "https://github.com/dhruv2311-dot/PURPLE",
+    demoVideoId: "1a2b3c4d5e6f7g8h9i0j",
+  },
+  {
+    id: 6,
+    title: "PharmEasy",
+    description: "Online pharmacy platform with medicine delivery system.",
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1739943561/y4vnpuulvuibf86l0dj9.png",
+    category: ["HTML/CSS", "React"],
+    techStack: ["React", "Tailwind CSS"],
+    deploymentLink: "https://bespoke-blini-7c10e3.netlify.app/",
+    githubLink: "https://github.com/dhruv2311-dot/pharmeasy",
+    demoVideoId: "1a2b3c4d5e6f7g8h9i0j",
+  },
+  {
+    id: 7,
+    title: "HireAVilla",
+    description: "Property booking platform with advanced filtering and booking system.",
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1739943420/hireavilla_ag5gso.png",
+    category: ["HTML/CSS", "React"],
+    techStack: ["React", "Tailwind CSS"],
+    deploymentLink: "https://hireavilla12.netlify.app/",
+    githubLink: "https://github.com/dhruv2311-dot/HIREAVILLA",
+    demoVideoId: "1a2b3c4d5e6f7g8h9i0j",
+  },
+  {
+    id: 8,
+    title: "Eventura (Figma)",
+    description: "A clean and modern dashboard interface design with white mode support.",
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1739943406/eventura_tuntzx.png",
+    category: ["HTML/CSS", "React"],
+    techStack: ['Figma', 'Auto Layout', 'Components', 'Variants'],
+    deploymentLink: "https://www.figma.com/design/VTpYgGhHaIuRfob33itg2p/codinggita?node-id=124-532&t=vtIPVwzy8GVvCr3a-1"
+    },
+  {
+    id: 9,
+    title: "CodingGita (Figma)",
+    description: "CodingGita is a well-structured and visually appealing website page design.",
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1740253761/wfdtwsnrsexc4xkkumvw.png",
+    category: ["HTML/CSS", "React"],
+    techStack: ['Figma', 'Auto Layout', 'Components', 'Variants'],
+    deploymentLink: "https://www.figma.com/design/VTpYgGhHaIuRfob33itg2p/codinggita?node-id=138-5416&t=vtIPVwzy8GVvCr3a-1",
+  },
+  {
+    id: 10,
+    title: "Furnishly (Figma)",
+    description: "Furnishly features a sleek and intuitive interface with a focus on user experience.",
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1740253407/j0jnuta7tknmxkfrplka.jpg",
+    category: ["HTML/CSS", "React"],
+    techStack: ['Figma', 'Auto Layout', 'Components', 'Variants'],
+    deploymentLink: "https://www.figma.com/design/VTpYgGhHaIuRfob33itg2p/codinggita?node-id=124-532&t=vtIPVwzy8GVvCr3a-1",
+  },
 ];
 
 const Projects = () => {
