@@ -19,47 +19,52 @@ interface Education {
 // Mock education data
 const educationData: Education[] = [
   {
-    id: 1,
-    degree: "Master of Science in Computer Science",
-    institution: "Stanford University",
-    location: "Stanford, CA",
-    startDate: "Sept 2020",
-    endDate: "May 2022",
-    highlights: [
-      "Specialized in Human-Computer Interaction and Artificial Intelligence",
-      "Published research on interactive visualization techniques",
-      "Teaching Assistant for Web Application Development course",
-      "Graduated with honors (GPA: 3.9/4.0)"
-    ]
-  },
-  {
-    id: 2,
-    degree: "Bachelor of Science in Software Engineering",
-    institution: "MIT",
-    location: "Cambridge, MA",
-    startDate: "Sept 2016",
-    endDate: "May 2020",
-    highlights: [
-      "Focused on full-stack development and system architecture",
-      "Led team project creating a campus resource allocation app",
-      "Participated in hackathons and coding competitions",
-      "Dean's List for all semesters"
-    ]
-  },
-  {
-    id: 3,
-    degree: "Web Development Bootcamp",
-    institution: "App Academy",
-    location: "San Francisco, CA",
-    startDate: "Jan 2016",
-    endDate: "Apr 2016",
-    highlights: [
-      "Intensive 12-week full-stack development program",
-      "Built 5 full-stack applications from scratch",
-      "Learned modern JavaScript frameworks and deployment techniques",
-      "Selected as peer mentor for subsequent cohort"
-    ]
-  }
+  id: 1,
+  degree: "Computer Science",
+  institution: "Rai University",
+  location: "Dholka, Ahmedabad, India",
+  startDate: "Aug 2024",
+  endDate: "Aug 2028",
+  highlights: [
+    "Strong foundation in both Frontend and Backend Web Development",
+    "Proficient in full-stack development with hands-on experience in HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB",
+    "Skilled in basic problem solving, UI/UX design, and database management",
+    "Secured 9.62 CGPA in the first semester",
+    "Actively learning advanced web technologies and software engineering principles"
+  ]
+},
+// 12th Grade Object
+{
+  id: 2,
+  degree: "Higher Secondary Education (Science)",
+  institution: "Vivekanand Science Academy",
+  location: "Halvad, Dhrangadhra, India",
+  startDate: "Jun 2022",
+  endDate: "Mar 2024",
+  highlights: [
+    "Completed 12th grade with Science stream focusing on Physics, Chemistry, and Mathematics",
+    "Achieved 75.66% and secured a 72 percentile in board examinations",
+    "Built a strong academic foundation for engineering and computer science",
+    "Participated in various science fairs and school tech activities"
+  ]
+},
+
+// 10th Grade Object
+{
+  id: 3,
+  degree: "Secondary School Certificate (SSC)",
+  institution: "Sunrise Smart School",
+  location: "Dhrangadhra, Surendranagar, India",
+  startDate: "Jun 2021",
+  endDate: "Mar 2022",
+  highlights: [
+    "Achieved outstanding academic results with 91% and 98.66 percentile",
+    "Awarded A1 grade for exceptional performance in all subjects",
+    "Demonstrated strong aptitude in Mathematics and Science",
+    "Recognized for discipline and consistent academic excellence"
+  ]
+}
+
 ];
 
 const Education = () => {

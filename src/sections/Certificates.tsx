@@ -71,17 +71,7 @@ const certificatesData: Certificate[] = [
     image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1747813135/frontend_developer_react_certificate_page-0001_x9yc1m.jpg",
     certificateUrl: "https://www.hackerrank.com/certificates/6f6e8a824ad7"
   },
-  {
-    id: 6,
-    title: "",
-    organization: "Hackerrank",
-    date: "May 2025",
-    description: "Introduction to Python programming, covering syntax, data types, and basic algorithms.",
-    skills: ["Python", "Algorithms"],
-    
-    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1747813135/python_basic_certificate_page-0001_qlxq4g.jpg",
-    certificateUrl: "https://www.hackerrank.com/certificates/0f3a2b7c8d9e"
-  },
+  
   {
     id: 7,
     title: "Github Copilot Fundamentals",
@@ -91,7 +81,7 @@ const certificatesData: Certificate[] = [
     skills: ["GitHub", "Copilot"],
    
     
-    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1747813135/python_basic_certificate_page-0001_qlxq4g.jpg",
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1747854428/Screenshot_2025-05-22_003626_bgbeec.png",
     certificateUrl: "https://simpli-web.app.link/e/b81icFwByTb"
   }
 ];
