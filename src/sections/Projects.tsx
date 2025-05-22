@@ -150,9 +150,7 @@ const projectsData: Project[] = [
     techStack: ['Figma', 'Auto Layout', 'Components', 'Variants'],
     deploymentLink: "https://www.figma.com/design/VTpYgGhHaIuRfob33itg2p/codinggita?node-id=124-532&t=vtIPVwzy8GVvCr3a-1",
   },
-  {
-    
-  }
+  
 ];
 
 const Projects = () => {
