@@ -26,7 +26,7 @@ const certificatesData: Certificate[] = [
     date: "april 2025",
     description: "Participated in a hackathon organized by OdooXGujarat Vidhyapith, showcasing skills in full-stack development.",
     skills: ["Full Stack Development", "Teamwork", "Problem Solving"],
-    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1747939960/IMG_6329_e9qwv6.heic",
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1747941112/IMG_6329_o5hsbv.jpg",
     certificateUrl: "https://www.linkedin.com/posts/dhruvvv23_hackathonjourney-innovation-sustainablefarming-activity-7311297836082438145-4Ws0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFFbQIEBNyvXKq2e2we3ieNXl2L1zznWXvo"
   },
   {
@@ -36,7 +36,7 @@ const certificatesData: Certificate[] = [
     date: "February 2025",
     description: "Participated in a tech expo organized by Rai University, showcasing skills in frontend development.",
     skills: ["Frontend Development", "Teamwork", "Problem Solving"],
-    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1747939960/IMG_5893_lnoe1p.heic",
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1747941112/IMG_5893_efxrm2.jpg",
     certificateUrl: "https://www.linkedin.com/posts/dhruvvv23_techexpo-cse-eventura-activity-7302664635332050944-pF9H?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFFbQIEBNyvXKq2e2we3ieNXl2L1zznWXvo"
   },
   {
