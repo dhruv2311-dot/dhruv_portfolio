@@ -136,6 +136,16 @@ const Hero = () => {
       });
     }
   };
+  const scroolToProjects = () =>{
+    const projectsection = document.getElementById('projects')
+    if(projectsection){
+      gsap.to(window, {
+        duration: 0.8,
+        scrollTo: { y: aboutSection, offsetY: 50 },
+        ease: "power2.inOut"
+      });
+    }
+  }
   
   return (
     <section ref={sectionRef} id="home" className="h-screen overflow-hidden flex items-center justify-center relative">
@@ -150,7 +160,7 @@ const Hero = () => {
               className="text-5xl md:text-7xl font-bold mb-6 leading-tight"
             >
               Hi, I'm <span className="text-[var(--color-secondary)]">Dhruv Sonagra</span>
-              <br />
+              
               Full-Stack Developer
             </h1>
             
@@ -162,7 +172,7 @@ const Hero = () => {
             </p>
             
             <div ref={ctaRef} className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              <button className="btn magnetic-hover">View Projects</button>
+              <button onClick={scrollToAbout} className="btn magnetic-hover">View Projects</button>
               <button className="btn magnetic-hover" onClick={scrollToAbout}>
                 About Me
               </button>

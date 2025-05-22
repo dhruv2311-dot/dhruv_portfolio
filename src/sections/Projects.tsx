@@ -37,7 +37,19 @@ const projectsData: Project[] = [
     
   },
   {
-    id:2,
+    id: 2,
+    title: "Farmtrust",
+    description: "FarmTrust is a comprehensive platform for farmers, offering real-time updates, an AI chatbot for assistance, and a user-friendly interface. It connects farmers with buyers, ensuring efficient transactions and support.",
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1747942311/Screenshot_2025-05-23_005646_qd6hzt.png",
+    category: ["React","MERN"],
+    techStack: ["React","Node.js","MongoDB","Express","Socket.io","Ai Chatbot","i18n","Authentication"],
+    githubLink: "https://github.com/dhruv2311-dot/FarmTrust",
+    apiDocsLink: "https://documenter.getpostman.com/view/39189509/2sAYX3s4Dc",
+
+    deploymentLink: "https://farmtrust.netlify.app/"
+  },
+  {
+    id:3,
     title: "Youtube",
     description: "A dynamic YouTube clone featuring real-time video updates, interactive UI, and seamless streaming. Built with React and Node.js, it integrates a custom YouTube API for personalized content delivery.",
     image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1740156747/Screenshot_2025-02-21_221308_uqsfq2.png",
@@ -48,7 +60,7 @@ const projectsData: Project[] = [
     demoVideoId: "1a2b3c4d5e6f7g8h9i0j",
   },
   {
-    id:3,
+    id:4,
     title:"spotify",
     description: "A sleek Spotify clone built using React with a modular, component-based architecture. It offers seamless music playback, dynamic UI updates, and an interactive user experience. 🚀🎵",
     image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1740156966/igvbvpgmgyzkbrthcdma.png",
@@ -59,7 +71,16 @@ const projectsData: Project[] = [
     demoVideoId: "1a2b3c4d5e6f7g8h9i0j",
   },
   {
-    id: 4,
+    id: 5,
+    title: "Netflix",
+    description: "A Netflix clone built with React, featuring a responsive design, smooth navigation, and dynamic content loading. It offers a seamless streaming experience with an intuitive user interface. 🎬✨",
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1747942711/Screenshot_2025-05-23_010754_duojcu.png",
+    category: ["React"],
+    techStack: ["React", "Tailwind CSS"],
+    deploymentLink: "https://netflix-u9ng.onrender.com/",
+    githubLink: "https://github.com/dhruv2311-dot/netflix"},
+  {
+    id: 6,
     title: "Tic-Tac-Toe",
     description: "A classic Tic Tac Toe game developed using React, featuring a responsive UI, smooth gameplay, and dynamic state management for an engaging experience. 🎮✨",
     image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1740157368/gtsplesiovqz4emqthn2.png",
@@ -70,7 +91,7 @@ const projectsData: Project[] = [
     demoVideoId: "1a2b3c4d5e6f7g8h9i0j",
   },
   {
-    id: 5,
+    id: 7,
     title: "Purple",
     description: "E-commerce platform with modern UI and seamless shopping experience.",
     image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1739943602/bgrat7sxisqwumu4x1vn.png",
@@ -81,7 +102,7 @@ const projectsData: Project[] = [
     demoVideoId: "1a2b3c4d5e6f7g8h9i0j",
   },
   {
-    id: 6,
+    id: 8,
     title: "PharmEasy",
     description: "Online pharmacy platform with medicine delivery system.",
     image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1739943561/y4vnpuulvuibf86l0dj9.png",
@@ -92,7 +113,7 @@ const projectsData: Project[] = [
     demoVideoId: "1a2b3c4d5e6f7g8h9i0j",
   },
   {
-    id: 7,
+    id: 9,
     title: "HireAVilla",
     description: "Property booking platform with advanced filtering and booking system.",
     image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1739943420/hireavilla_ag5gso.png",
@@ -103,7 +124,7 @@ const projectsData: Project[] = [
     demoVideoId: "1a2b3c4d5e6f7g8h9i0j",
   },
   {
-    id: 8,
+    id: 10,
     title: "Eventura (Figma)",
     description: "A clean and modern dashboard interface design with white mode support.",
     image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1739943406/eventura_tuntzx.png",
@@ -112,7 +133,7 @@ const projectsData: Project[] = [
     deploymentLink: "https://www.figma.com/design/VTpYgGhHaIuRfob33itg2p/codinggita?node-id=124-532&t=vtIPVwzy8GVvCr3a-1"
     },
   {
-    id: 9,
+    id: 11,
     title: "CodingGita (Figma)",
     description: "CodingGita is a well-structured and visually appealing website page design.",
     image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1740253761/wfdtwsnrsexc4xkkumvw.png",
@@ -121,7 +142,7 @@ const projectsData: Project[] = [
     deploymentLink: "https://www.figma.com/design/VTpYgGhHaIuRfob33itg2p/codinggita?node-id=138-5416&t=vtIPVwzy8GVvCr3a-1",
   },
   {
-    id: 10,
+    id: 12,
     title: "Furnishly (Figma)",
     description: "Furnishly features a sleek and intuitive interface with a focus on user experience.",
     image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1740253407/j0jnuta7tknmxkfrplka.jpg",
@@ -129,6 +150,9 @@ const projectsData: Project[] = [
     techStack: ['Figma', 'Auto Layout', 'Components', 'Variants'],
     deploymentLink: "https://www.figma.com/design/VTpYgGhHaIuRfob33itg2p/codinggita?node-id=124-532&t=vtIPVwzy8GVvCr3a-1",
   },
+  {
+    
+  }
 ];
 
 const Projects = () => {
