@@ -21,6 +21,36 @@ interface Certificate {
 const certificatesData: Certificate[] = [
   {
     id: 1,
+    title: "Hackathon 2025",
+    organization: "OdooXGujarat Vidhyapith",
+    date: "april 2025",
+    description: "Participated in a hackathon organized by OdooXGujarat Vidhyapith, showcasing skills in full-stack development.",
+    skills: ["Full Stack Development", "Teamwork", "Problem Solving"],
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1747939960/IMG_6329_e9qwv6.heic",
+    certificateUrl: "https://www.linkedin.com/posts/dhruvvv23_hackathonjourney-innovation-sustainablefarming-activity-7311297836082438145-4Ws0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFFbQIEBNyvXKq2e2we3ieNXl2L1zznWXvo"
+  },
+  {
+    id: 2,
+    title: "Tech Expo 2025",
+    organization: "Rai University",
+    date: "February 2025",
+    description: "Participated in a tech expo organized by Rai University, showcasing skills in frontend development.",
+    skills: ["Frontend Development", "Teamwork", "Problem Solving"],
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1747939960/IMG_5893_lnoe1p.heic",
+    certificateUrl: "https://www.linkedin.com/posts/dhruvvv23_techexpo-cse-eventura-activity-7302664635332050944-pF9H?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFFbQIEBNyvXKq2e2we3ieNXl2L1zznWXvo"
+  },
+  {
+    id: 3,
+    title: "Introduction to the Basics of Azure Services",
+    organization: "Simplilearn",
+    date: "May 2025",
+    description: "Comprehensive program covering modern full-stack development with JavaScript, React, Node.js, and database technologies.",
+    skills: ["JavaScript", "Node.js", "MongoDB"],
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1747940426/8374205_87113191747897516884_page-0001_rtjmn1.jpg",
+    certificateUrl: "https://simpli-web.app.link/e/pMTJ2cIiATb"
+  },
+  {
+    id: 4,
     title: "Node.js(Basic)",
     organization: "Hackerrank",
     date: "May 2025",
@@ -30,7 +60,7 @@ const certificatesData: Certificate[] = [
     certificateUrl: "https://www.hackerrank.com/certificates/edf3c23f04f1"
   },
   {
-    id: 2,
+    id: 5,
     title: "React(Basic)",
     organization: "Hackerrank",
     date: "May 2025",
@@ -40,7 +70,7 @@ const certificatesData: Certificate[] = [
     certificateUrl: "https://www.hackerrank.com/certificates/29f04f97089f"
   },
   {
-    id: 3,
+    id: 6,
     title: "Javascript (Basic)",
     organization: "Hackerrank",
     date: "May 2025",
@@ -50,7 +80,7 @@ const certificatesData: Certificate[] = [
     certificateUrl: "https://www.hackerrank.com/certificates/a3b280e1ad5b"
   },
   {
-    id: 4,
+    id: 7,
     title: "Problem Solving (Basic)",
     organization: "Hackerrank",
     date: "May 2025",
@@ -61,7 +91,7 @@ const certificatesData: Certificate[] = [
     certificateUrl: "https://www.hackerrank.com/certificates/62a8fed5cb66"
   },
   {
-    id: 5,
+    id: 8,
     title: "Frontend Development (Basic)",
     organization: "Hackerrank",
     date: "May 2025",
@@ -73,7 +103,7 @@ const certificatesData: Certificate[] = [
   },
   
   {
-    id: 7,
+    id: 9,
     title: "Github Copilot Fundamentals",
     organization: "simplileran",
     date: "May 2025",
