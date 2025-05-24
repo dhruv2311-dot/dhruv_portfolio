@@ -160,7 +160,7 @@ const Hero = () => {
               className="text-5xl md:text-7xl font-bold mb-6 leading-tight"
             >
               Hi, I'm <span className="text-[var(--color-secondary)]">Dhruv Sonagra</span>
-              
+              <br />
               Full-Stack Developer
             </h1>
             
