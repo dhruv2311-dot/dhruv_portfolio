@@ -161,7 +161,7 @@ const Hero = () => {
             >
               Hi, I'm <span className="text-[var(--color-secondary)]">Dhruv Sonagra</span>
               <br />
-              Full-Stack Developer
+              Full-Stack <br /> Developer
             </h1>
             
             <p 
