@@ -113,6 +113,18 @@ const certificatesData: Certificate[] = [
     
     image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1747854428/Screenshot_2025-05-22_003626_bgbeec.png",
     certificateUrl: "https://simpli-web.app.link/e/b81icFwByTb"
+  },
+  {
+    id: 10,
+    title: "Problem Solving (Intermediate)",
+    organization: "Hackerrank",
+    date: "May 2025",
+    description: "Intermediate problem-solving techniques, focusing on algorithms and data structures.",
+    skills: ["Algorithms", "Data Structures"],
+    
+    
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1748157142/problem_solving_intermediate_certificate_page-0001_h72tfw.jpg",
+    certificateUrl: "https://www.hackerrank.com/certificates/598165441562"
   }
 ];
 
