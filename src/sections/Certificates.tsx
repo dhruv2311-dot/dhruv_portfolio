@@ -41,6 +41,27 @@ const certificatesData: Certificate[] = [
   },
   {
     id: 3,
+    title: "Microsoft PowerBi and Fundamentals",
+    organization: "Rai University",
+    date:"April 2025",
+    description: "Completed a comprehensive program on Microsoft PowerBi and fundamentals, enhancing data visualization and analysis skills.",
+    skills: ["PowerBi", "Data Visualization", "Data Analysis"],
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1748803319/DHRUV_SONAGRA-1_page-0001_q383yt.jpg",
+    certificateUrl: "https://www.linkedin.com/posts/dhruvvv23_microsoftpowerbi-dataanalysis-activity-7302664635332050944-pF9H?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFFbQIEBNyvXKq2e2we3ieNXl2L1zznWXvo"
+  },
+  {
+    id: 4,
+    title: "Azure Fundamentals",
+    organization: "Rai University",
+    date: "April 2025",
+    description: "Completed a comprehensive program on Azure Fundamentals, enhancing cloud computing skills.",
+    skills: ["Azure", "Cloud Computing", "Data Management"],
+   
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1748803319/DHRUV_SONAGRA_page-0001_yfs115.jpg",
+    certificateUrl: "https://simpli-web.app.link/e/pMTJ2cIiATb"
+  },
+  {
+    id: 5,
     title: "Introduction to the Basics of Azure Services",
     organization: "Simplilearn",
     date: "May 2025",
@@ -50,7 +71,7 @@ const certificatesData: Certificate[] = [
     certificateUrl: "https://simpli-web.app.link/e/pMTJ2cIiATb"
   },
   {
-    id: 4,
+    id: 6,
     title: "Node.js(Basic)",
     organization: "Hackerrank",
     date: "May 2025",
@@ -60,7 +81,7 @@ const certificatesData: Certificate[] = [
     certificateUrl: "https://www.hackerrank.com/certificates/edf3c23f04f1"
   },
   {
-    id: 5,
+    id: 7,
     title: "React(Basic)",
     organization: "Hackerrank",
     date: "May 2025",
@@ -70,7 +91,7 @@ const certificatesData: Certificate[] = [
     certificateUrl: "https://www.hackerrank.com/certificates/29f04f97089f"
   },
   {
-    id: 6,
+    id: 8,
     title: "Javascript (Basic)",
     organization: "Hackerrank",
     date: "May 2025",
@@ -80,7 +101,7 @@ const certificatesData: Certificate[] = [
     certificateUrl: "https://www.hackerrank.com/certificates/a3b280e1ad5b"
   },
   {
-    id: 7,
+    id: 9,
     title: "Problem Solving (Basic)",
     organization: "Hackerrank",
     date: "May 2025",
@@ -91,7 +112,7 @@ const certificatesData: Certificate[] = [
     certificateUrl: "https://www.hackerrank.com/certificates/62a8fed5cb66"
   },
   {
-    id: 8,
+    id: 10,
     title: "Frontend Development (Basic)",
     organization: "Hackerrank",
     date: "May 2025",
@@ -103,7 +124,7 @@ const certificatesData: Certificate[] = [
   },
   
   {
-    id: 9,
+    id: 11,
     title: "Github Copilot Fundamentals",
     organization: "simplileran",
     date: "May 2025",
@@ -115,7 +136,7 @@ const certificatesData: Certificate[] = [
     certificateUrl: "https://simpli-web.app.link/e/b81icFwByTb"
   },
   {
-    id: 10,
+    id: 12,
     title: "Problem Solving (Intermediate)",
     organization: "Hackerrank",
     date: "May 2025",
@@ -127,7 +148,7 @@ const certificatesData: Certificate[] = [
     certificateUrl: "https://www.hackerrank.com/certificates/598165441562"
   },
   {
-    id: 11,
+    id: 13,
     title: "Javascript (Intermediate)",
     organization: "Hackerrank",
     date: "June 2025",
