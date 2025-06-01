@@ -65,7 +65,7 @@ const ThemeToggle = () => {
     document.documentElement.style.setProperty('--color-background', isDark ? '#050505' : '#ffffff');
     document.documentElement.style.setProperty('--color-text', isDark ? '#f9fafb' : '#1a1a1a');
     document.documentElement.style.setProperty('--color-surface', isDark ? 'rgba(30, 30, 30, 0.7)' : 'rgba(255, 255, 255, 0.7)');
-  }, []);
+  }, [isDark]);
   
   return (
     <>

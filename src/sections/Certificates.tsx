@@ -125,6 +125,18 @@ const certificatesData: Certificate[] = [
     
     image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1748157142/problem_solving_intermediate_certificate_page-0001_h72tfw.jpg",
     certificateUrl: "https://www.hackerrank.com/certificates/598165441562"
+  },
+  {
+    id: 11,
+    title: "Javascript (Intermediate)",
+    organization: "Hackerrank",
+    date: "June 2025",
+    description: "Intermediate JavaScript concepts, including ES6 features, asynchronous programming, and advanced functions.",
+    skills: ["JavaScript", "ES6", "Asynchronous Programming"],
+
+    
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1748763239/javascript_intermediate_certificate_page-0001_a3jxf3.jpg",
+    certificateUrl: "https://www.hackerrank.com/certificates/e9dc1c182019"
   }
 ];
 
