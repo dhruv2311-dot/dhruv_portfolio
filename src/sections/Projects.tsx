@@ -112,17 +112,17 @@ const projectsData: Project[] = [
     githubLink: "https://github.com/dhruv2311-dot/pharmeasy",
     demoVideoId: "1a2b3c4d5e6f7g8h9i0j",
   },
-  {
-    id: 9,
-    title: "HireAVilla",
-    description: "Property booking platform with advanced filtering and booking system.",
-    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1739943420/hireavilla_ag5gso.png",
-    category: ["HTML/CSS"],
-    techStack: ["HTML", "CSS", "JavaScript"],
-    deploymentLink: "https://hireavilla12.netlify.app/",
-    githubLink: "https://github.com/dhruv2311-dot/HIREAVILLA",
-    demoVideoId: "1a2b3c4d5e6f7g8h9i0j",
-  },
+    {
+      id: 9,
+      title: "HireAVilla",
+      description: "Property booking platform with advanced filtering and booking system.",
+      image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1739943420/hireavilla_ag5gso.png",
+      category: ["HTML/CSS"],
+      techStack: ["HTML", "CSS", "JavaScript"],
+      deploymentLink: "https://hireavilla12.netlify.app/",
+      githubLink: "https://github.com/dhruv2311-dot/HIREAVILLA",
+      demoVideoId: "1a2b3c4d5e6f7g8h9i0j",
+    },
   {
     id: 10,
     title: "Eventura (Figma)",
@@ -150,6 +150,15 @@ const projectsData: Project[] = [
     techStack: ['Figma', 'Auto Layout', 'Components', 'Variants'],
     deploymentLink: "https://www.figma.com/design/VTpYgGhHaIuRfob33itg2p/codinggita?node-id=124-532&t=vtIPVwzy8GVvCr3a-1",
   },
+  {
+    id: 13,
+    title: "Farmtrust (Figma)",
+    description: "FarmTrust is a comprehensive platform for farmers, offering real-time updates, an AI chatbot for assistance, and a user-friendly interface. It connects farmers with buyers, ensuring efficient transactions and support.",
+    image: "https://res.cloudinary.com/dtkzxbcjx/image/upload/v1747942311/Screenshot_2025-05-23_005646_qd6hzt.png",
+    category: ["Figma"],
+    techStack: ['Figma', 'Auto Layout', 'Components', 'Variants'],
+    deploymentLink: "https://www.figma.com/design/SNuN8wbnReIue8nUOJhjEG/Untitled?node-id=0-1&t=EmfBEpHrp46N2K5m-1",
+  }
   
 ];
 

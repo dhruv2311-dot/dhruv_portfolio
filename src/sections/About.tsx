@@ -146,7 +146,7 @@ const About = () => {
             </p>
             
             <a
-  href="https://drive.google.com/drive/folders/1j15K-58ArheyL9gM4zYpGRVKC4abKUSl?usp=sharing"
+  href="https://drive.google.com/file/d/1IFdqoxCatdm7hb458HmVidRwSTy2iqOU/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
 >
