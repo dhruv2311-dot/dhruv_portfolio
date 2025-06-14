@@ -114,7 +114,7 @@ const ThemeToggle = () => {
       <button
         ref={buttonRef}
         onClick={toggleTheme}
-        className="fixed top-6 right-6 z-50 w-12 h-12 rounded-full bg-[var(--color-surface)] backdrop-blur-sm border border-[var(--color-secondary)] flex items-center justify-center magnetic-hover shadow-lg hover:shadow-xl transition-all duration-300"
+        className="fixed top-6 left-6 z-50 w-12 h-12 rounded-full bg-[var(--color-surface)] backdrop-blur-sm border border-[var(--color-secondary)] flex items-center justify-center magnetic-hover shadow-lg hover:shadow-xl transition-all duration-300"
         aria-label="Toggle theme"
       >
         {isDark ? (
