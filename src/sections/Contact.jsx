@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import SplitType from 'split-type';
-import { Send, Mail, Phone, MapPin,  } from 'lucide-react';
+import { Send, Mail, Phone, MapPin, CheckCircle } from 'lucide-react';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -245,7 +245,7 @@ const Contact = () => {
               
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[var(--color-secondary)] bg-opacity-20 flex items-center justify-center">
+                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[var(--color-primary)]/20 flex items-center justify-center">
                     <Mail className="w-6 h-6 text-[var(--color-secondary)]" />
                   </div>
                   <div className="min-w-0 flex-1">
@@ -254,13 +254,13 @@ const Contact = () => {
                       href="mailto:contact@example.com" 
                       className="text-gray-400 hover:text-[var(--color-secondary)] transition-colors break-all text-sm sm:text-base"
                     >
-                    Dhruv.sonagra.cg@gmail.com
+                      contact@example.com
                     </a>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[var(--color-secondary)] bg-opacity-20 flex items-center justify-center">
+                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[var(--color-primary)]/20 flex items-center justify-center">
                     <Phone className="w-6 h-6 text-[var(--color-secondary)]" />
                   </div>
                   <div className="min-w-0 flex-1">
@@ -269,18 +269,18 @@ const Contact = () => {
                       href="tel:+1234567890" 
                       className="text-gray-400 hover:text-[var(--color-secondary)] transition-colors text-sm sm:text-base"
                     >
-                      +91 88492 77382
+                      +1 (234) 567-890
                     </a>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[var(--color-secondary)] bg-opacity-20 flex items-center justify-center">
+                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[var(--color-primary)]/20 flex items-center justify-center">
                     <MapPin className="w-6 h-6 text-[var(--color-secondary)]" />
                   </div>
                   <div className="min-w-0 flex-1">
                     <h4 className="text-lg font-medium mb-1">Location</h4>
-                    <p className="text-gray-400 text-sm sm:text-base">Rai University, Ahmedabad</p>
+                    <p className="text-gray-400 text-sm sm:text-base">New York, United States</p>
                   </div>
                 </div>
               </div>
