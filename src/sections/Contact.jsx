@@ -254,7 +254,7 @@ const Contact = () => {
                       href="mailto:contact@example.com" 
                       className="text-gray-400 hover:text-[var(--color-secondary)] transition-colors break-all text-sm sm:text-base"
                     >
-                      contact@example.com
+                      Dhruv.sonagra.cg@gmail.com
                     </a>
                   </div>
                 </div>
@@ -269,7 +269,7 @@ const Contact = () => {
                       href="tel:+1234567890" 
                       className="text-gray-400 hover:text-[var(--color-secondary)] transition-colors text-sm sm:text-base"
                     >
-                      +1 (234) 567-890
+                      +91 88492 77382
                     </a>
                   </div>
                 </div>
@@ -280,7 +280,7 @@ const Contact = () => {
                   </div>
                   <div className="min-w-0 flex-1">
                     <h4 className="text-lg font-medium mb-1">Location</h4>
-                    <p className="text-gray-400 text-sm sm:text-base">New York, United States</p>
+                    <p className="text-gray-400 text-sm sm:text-base">Rai University, Ahemdabad</p>
                   </div>
                 </div>
               </div>
