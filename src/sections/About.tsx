@@ -3,7 +3,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import SplitType from 'split-type';
 import { User, Code, Hash, Rocket } from 'lucide-react';
-import Profile from '../assets/dhruv1.jpg'; // Adjust the path as necessary
+import Profile from '../assets/profile.jpg'; // Adjust the path as necessary
 gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
@@ -98,6 +98,10 @@ const About = () => {
                     src={Profile} 
                     alt="Developer" 
                     className="w-full h-full object-cover"
+                    style={{ 
+                      objectPosition: 'center 20%',
+                      transform: 'scale(1.3)'
+                    }}
                   />
                 </div>
               </div>
