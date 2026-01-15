@@ -164,24 +164,24 @@ const Education = () => {
                 <div className="bg-[var(--color-surface)] p-6 rounded-xl border border-gray-700 hover:border-[var(--color-secondary)] transition-all duration-300">
                   <h3 className="text-xl font-bold mb-2 text-[var(--color-secondary)]">{item.degree}</h3>
                   
-                  <div className="flex items-center gap-2 mb-1 text-gray-300 flex-wrap md:justify-end">
+                  <div className="flex items-center gap-2 mb-1 flex-wrap md:justify-end" style={{ color: 'var(--color-text-secondary)' }}>
                     <BookOpen size={16} className={index % 2 === 0 ? 'md:order-2' : ''} />
                     <span className={index % 2 === 0 ? 'md:order-1' : ''}>{item.institution}</span>
                   </div>
                   
-                  <div className="flex items-center gap-2 mb-1 text-gray-400 text-sm flex-wrap md:justify-end">
+                  <div className="flex items-center gap-2 mb-1 text-sm flex-wrap md:justify-end" style={{ color: 'var(--color-text-muted)' }}>
                     <MapPin size={14} className={index % 2 === 0 ? 'md:order-2' : ''} />
                     <span className={index % 2 === 0 ? 'md:order-1' : ''}>{item.location}</span>
                   </div>
                   
-                  <div className="flex items-center gap-2 mb-4 text-gray-400 text-sm flex-wrap md:justify-end">
+                  <div className="flex items-center gap-2 mb-4 text-sm flex-wrap md:justify-end" style={{ color: 'var(--color-text-muted)' }}>
                     <Calendar size={14} className={index % 2 === 0 ? 'md:order-2' : ''} />
                     <span className={index % 2 === 0 ? 'md:order-1' : ''}>{item.startDate} - {item.endDate}</span>
                   </div>
                   
                   <div className={`space-y-2 text-sm md:text-base ${index % 2 === 0 ? 'md:text-right' : ''}`}>
                     {item.highlights.map((highlight, i) => (
-                      <p key={i} className="text-gray-300">{highlight}</p>
+                      <p key={i} style={{ color: 'var(--color-text-secondary)' }}>{highlight}</p>
                     ))}
                   </div>
                 </div>
