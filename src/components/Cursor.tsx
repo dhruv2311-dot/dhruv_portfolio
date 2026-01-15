@@ -14,14 +14,12 @@ const Cursor = () => {
     if (!cursor || !cursorDot || !cursorRings) return;
     
     const onMouseMove = (e: MouseEvent) => {
-      // Animate cursor dot with no delay
       gsap.to(cursorDot, {
         x: e.clientX,
         y: e.clientY,
         duration: 0,
       });
       
-      // Animate cursor rings with slight delay for trailing effect
       gsap.to(cursorRings, {
         x: e.clientX,
         y: e.clientY,
@@ -44,7 +42,6 @@ const Cursor = () => {
       });
     };
     
-    // Magnetic hover effect for buttons and links
     const handleMagneticMove = (e: MouseEvent, elem: Element) => {
       const rect = elem.getBoundingClientRect();
       const relX = e.clientX - rect.left - rect.width / 2;
@@ -104,15 +101,12 @@ const Cursor = () => {
       });
     };
     
-    // Initial setup
     window.addEventListener('mousemove', onMouseMove);
     window.addEventListener('mousedown', onMouseDown);
     window.addEventListener('mouseup', onMouseUp);
     
-    // Setup magnetic elements after a slight delay to ensure DOM is ready
     setTimeout(setupMagneticElements, 1000);
     
-    // Re-run setup when DOM might change
     const observer = new MutationObserver(setupMagneticElements);
     observer.observe(document.body, { childList: true, subtree: true });
     
