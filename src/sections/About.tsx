@@ -99,8 +99,8 @@ const About = () => {
                     alt="Developer" 
                     className="w-full h-full object-cover"
                     style={{ 
-                      objectPosition: 'center center',
-                      transform: 'scale(1.0)'
+                      objectPosition: 'center 30%',
+                      transform: 'scale(1.8)'
                     }}
                   />
                 </div>
