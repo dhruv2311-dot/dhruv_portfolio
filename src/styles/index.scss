@@ -5,6 +5,8 @@
 :root {
   --color-background: #050505;
   --color-text: #f9fafb;
+  --color-text-secondary: rgba(249, 250, 251, 0.8);
+  --color-text-muted: rgba(249, 250, 251, 0.6);
   --color-primary: #8a2be2;
   --color-secondary: #00ffff;
   --color-accent: #ff3e6b;
@@ -214,4 +216,17 @@ html.has-scroll-smooth {
   div {
     margin: 5px 0;
   }
+}
+
+// Theme-aware text color utilities
+.text-theme {
+  color: var(--color-text);
+}
+
+.text-theme-secondary {
+  color: var(--color-text-secondary);
+}
+
+.text-theme-muted {
+  color: var(--color-text-muted);
 }
