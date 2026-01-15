@@ -245,11 +245,11 @@ const Certificates = () => {
                   
                   {/* Certificate details */}
                   <div className="p-6 md:w-2/3">
-                    <div className="mb-1 text-sm text-gray-400">
+                    <div className="mb-1 text-sm" style={{ color: 'var(--color-text-muted)' }}>
                       {certificate.organization} • {certificate.date}
                     </div>
                     <h3 className="text-xl font-bold mb-2 text-[var(--color-secondary)]">{certificate.title}</h3>
-                    <p className="text-gray-300 mb-4 text-sm">{certificate.description}</p>
+                    <p className="mb-4 text-sm" style={{ color: 'var(--color-text-secondary)' }}>{certificate.description}</p>
                     
                     {/* Skills */}
                     <div className="flex flex-wrap gap-2 mb-4">
