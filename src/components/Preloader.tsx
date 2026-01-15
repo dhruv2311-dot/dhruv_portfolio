@@ -67,7 +67,7 @@ const Preloader = () => {
           <span ref={percentageRef}>0%</span>
         </div>
         
-        <div className="mt-2 text-sm text-gray-400">
+        <div className="mt-2 text-sm" style={{ color: 'var(--color-text-muted)' }}>
           Loading Portfolio Experience
         </div>
       </div>
