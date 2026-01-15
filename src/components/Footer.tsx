@@ -124,7 +124,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 mb-4 md:mb-0">
+          <p className="mb-4 md:mb-0" style={{ color: 'var(--color-text-muted)' }}>
             &copy; <span ref={yearRef}></span> Dhruv Portfolio. All rights reserved.
           </p>
           
